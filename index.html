@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rock-paper-scissors</title>
+  <link rel="stylesheet" href="gam.css">
+</head>
+<body>
+  <div  class="game">
+  <p class="title-name">Rock-Paper-Scissors</p>
+  <div>
+  <button onclick="
+    const comp=compM();
+    const play='Rock';
+    move(comp,'Rock');
+    Res(comp,'Rock');
+    ">
+    ✊
+  </button>
+  <button onclick="
+    comp=compM();
+    play='Paper';
+    move(comp,'Paper');
+    Res(comp,'Paper');
+    ">
+     ✋
+  </button>
+  <button onclick="
+    comp=compM();
+    play='Scissors';
+    move(comp,'Scissors');
+    Res(comp,'Scissors');
+    ">
+     ✌️
+  </button>
+  </div>
+  <p class="js-move"></p>
+  <p class="js-result"></p>
+  <p class="js-score"></p>
+  <button onclick="
+    jsReset()" class="jsReset">Reset</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
