@@ -1,0 +1,27 @@
+
+.game{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background:linear-gradient(to right, rgb(255, 88, 88),rgb(41, 121, 251));
+  color: white;
+  
+  font-size: 20px;
+}
+.title-name{
+  font-size: 40px;
+  padding: 0;
+}
+button{
+  font-size:70px;
+  border-radius: 5px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.jsReset{
+  font-size: 30px;
+}
