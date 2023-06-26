@@ -12,7 +12,7 @@ body{
   font-size: 20px;
 }
 .title-name{
-  font-size: 40px;
+  font-size: 30px;
   padding: 0;
 }
 button{
@@ -22,6 +22,10 @@ button{
   background: transparent;
   cursor: pointer;
 }
-.jsReset{
-  font-size: 30px;
+.jsReset,
+.jsAutoplay{
+  font-size: 25px;
+  box-shadow: 7px 7px 14px rgba(15, 15, 15, 0.7);
+  margin-left: 15px;
 }
+
