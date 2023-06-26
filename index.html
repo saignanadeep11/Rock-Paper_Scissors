@@ -4,44 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>rock-paper-scissors</title>
-  <link rel="stylesheet" href="game.css">
+  <link rel="stylesheet" href="gam.css">
 </head>
 <body>
   <div  class="game">
   <p class="title-name">Rock-Paper-Scissors</p>
   <div>
-  <button onclick="
-    const comp=compM();
-    const play='Rock';
-    move(comp,'Rock');
-    Res(comp,'Rock');
-    ">
+  <button class="jsRock">
     ✊
   </button>
-  <button onclick="
-    comp=compM();
-    play='Paper';
-    move(comp,'Paper');
-    Res(comp,'Paper');
-    ">
+  <button class="jsPaper">
      ✋
   </button>
-  <button onclick="
-    comp=compM();
-    play='Scissors';
-    move(comp,'Scissors');
-    Res(comp,'Scissors');
-    ">
+  <button class="jsScissors">
      ✌️
   </button>
   </div>
   <p class="js-move"></p>
   <p class="js-result"></p>
   <p class="js-score"></p>
-  <button onclick="
-    jsReset()" class="jsReset">Reset</button>
+  <div>
+  <button class="jsReset">Reset</button>
+  <button class="jsAutoplay"> Auto Play</button>
+  </div>
     </div>
     <script src="game.js"></script>
 </body>
-
 </html>
